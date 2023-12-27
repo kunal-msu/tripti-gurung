@@ -1,0 +1,89 @@
+.icon{
+    /* background-color: white; */
+    height:70px;
+    float: left;
+}
+body{
+    background: rgba(147, 84, 250, 0.764);
+    background-position: center;
+    
+}
+nav{
+    display:flex;
+    width: auto;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+nav ul li{
+    margin: 0 2px;
+    color: rgb(239, 235, 235);
+    letter-spacing: 1px;
+    padding: 5px 5px;
+}
+#btn-login{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(250, 243, 243);
+    float: left;
+    font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+   list-style: none;
+   margin: 10px;
+   padding: 0px 30px;
+   text-align: center;
+   white-space: nowrap;
+   border-radius: 8px;
+}
+#btn{
+    border-radius: 8px;
+   border-width: 0;
+   cursor: pointer;
+   display: inline-block;
+   background: #e10b0b;
+   color: white;
+   font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 10px;
+  padding: 0px 30px;
+  text-align: center;
+  white-space: nowrap;
+    /* border: 1px solid grey; */
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 600px;
+    /* background: #f1f1f1; */
+  }
+
+  form.example button {
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #e10b0b;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  
+
+  
+  
