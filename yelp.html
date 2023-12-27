@@ -7,6 +7,31 @@
     </head>
 
 <body>
+    <!-- <div class="slider">
+        <img src="1.jpeg" alt="Image 1">
+        <img src="12.webp" alt="Image 2">
+        <img src="q.jpg" alt="Image 2">
+        <!-- Add more images as needed -->
+        </div>
+      
+    
+      <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slider img');
+    
+        function showSlide(index) {
+          slides.forEach((slide, i) => {
+            slide.style.opacity = i === index ? 1 : 0;
+          });
+        }
+    
+        function nextSlide() {
+          currentSlide = (currentSlide + 1) % slides.length;
+          showSlide(currentSlide);
+        }
+    
+        setInterval(nextSlide, 3000); // Adjust the time interval as needed
+      </script> -->
 
   <nav>
     <img src="yelp_logo.png" alt="Yelp Logo" class="logo">
@@ -73,6 +98,6 @@
     <!-- Add additional elements for the second nav bar as needed -->
 
   </nav>
-
+    
 </body>
 </html>

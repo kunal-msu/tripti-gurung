@@ -198,3 +198,20 @@ body {
       display: block;
       
     }
+
+    /* .slider {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slider img {
+      width: 100%;
+      display: none;
+      position: absolute;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .slider img:first-child {
+      display: block;
+    } */
