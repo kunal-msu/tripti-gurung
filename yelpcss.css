@@ -1,68 +1,24 @@
-.icon{
-    /* background-color: white; */
-    height:70px;
-    float: left;
-}
-body{
-    background: rgba(147, 84, 250, 0.764);
-    background-position: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(q.png);
+    filter: drop-shadow(50px 10px 50px 80px rgba(8, 1, 1, 0.921));
     
-}
-nav{
-    display:flex;
-    width: auto;
-    position: relative;
-    justify-content: space-between;
-    text-align: center;
-    padding: 15px 30px;
-    
-}
-nav ul{
+  }
+
+  nav {
+    padding: 10px 20px;
     display: flex;
-    list-style: none;
-    margin: auto 0;
-}
-nav ul li{
-    margin: 0 2px;
-    color: rgb(239, 235, 235);
-    letter-spacing: 1px;
-    padding: 5px 5px;
-}
-#btn-login{
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid rgb(250, 243, 243);
-    float: left;
-    font-size: 14px;
-   font-weight: 500;
-   line-height: 20px;
-   list-style: none;
-   margin: 10px;
-   padding: 0px 30px;
-   text-align: center;
-   white-space: nowrap;
-   border-radius: 8px;
-}
-#btn{
-    border-radius: 8px;
-   border-width: 0;
-   cursor: pointer;
-   display: inline-block;
-   background: #e10b0b;
-   color: white;
-   font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  margin: 10px;
-  padding: 0px 30px;
-  text-align: center;
-  white-space: nowrap;
-    /* border: 1px solid grey; */
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-}
-form.example input[type=text] {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
@@ -83,7 +39,121 @@ form.example input[type=text] {
     cursor: pointer;
   }
 
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
   
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-list a:hover {
+    color: #61dafb; /* Change the color on hover */
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: rgba(255,255,255,1);
+  }
+  
+  .nav-list li:hover .dropdown {
+    display: block;
+}
 
-  
-  
+.dropdown a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dd8888;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: #090101f0;
+    display: block;
+  }
+
+  .login {
+    border-color: rgba(235,235,235,1);
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    background-color: transparent;
+    border: 1px solid rgba(200,201,202,1);
+    color: rgba(255,255,255,1);
+    display: inline-flex;
+    cursor: pointer;
+  }
+  .login:hover{
+    .css-1hec36u:hover {
+        background-color: rgba(255,255,255,0.3);
+        color: rgba(255,255,255,1);
+        box-shadow: none;
+    }
+  }
+.signup{
+    background-color: rgb(244,13,21);
+    color: rgba(255,255,255,1);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+    display: inline-block;
+    margin-left: 12px;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.list{
+    list-style-type: none;
+    color: rgba(255,255,255,1);
+  }
