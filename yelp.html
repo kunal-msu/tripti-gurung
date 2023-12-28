@@ -4,34 +4,12 @@
         <title> Yelp webpage Layout</title>
         <link rel="stylesheet" href="yelpcss.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
     </head>
 
 <body>
-    <!-- <div class="slider">
-        <img src="1.jpeg" alt="Image 1">
-        <img src="12.webp" alt="Image 2">
-        <img src="q.jpg" alt="Image 2">
-         </div>
-       -->
-    
-      <!-- <script>
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.slider img');
-    
-        function showSlide(index) {
-          slides.forEach((slide, i) => {
-            slide.style.opacity = i === index ? 1 : 0;
-          });
-        }
-    
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % slides.length;
-          showSlide(currentSlide);
-        }
-    
-        setInterval(nextSlide, 3000); // Adjust the time interval as needed
-      </script> -->
-
+  <div class="stack">
   <nav>
     <img src="logo_desktop_white.svg" alt="Yelp Logo" class="logo">
 
@@ -94,9 +72,38 @@
       </div>
     </div>
 
-    <!-- Add additional elements for the second nav bar as needed -->
+  
 
   </nav>
     
+  <div id="image-slider">
+    <img src="image-1.jpg" alt="Image 1">
+    <img src="image-2.jpg" alt="Image 2">
+    <img src="image-3.jpg" alt="Image 3">
+ </div>
+ 
+ <script>
+  $(document).ready(function() {
+     var currentIndex = 0,
+        items = $('#image-slider img');
+
+     function showImage(index) {
+        items.hide().eq(index).fadeIn(500);
+     }
+
+     function nextImage() {
+        currentIndex = (currentIndex + 1) % items.length;
+        showImage(currentIndex);
+     }
+
+     // Display the first image
+     showImage(currentIndex);
+
+     // Change image every 3 seconds (adjust as needed)
+     setInterval(nextImage, 3000);
+  });
+</script>
+</div>
+</body>  
 </body>
 </html>
