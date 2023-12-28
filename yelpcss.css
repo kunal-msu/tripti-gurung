@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(q.png);
+    background: url(image-1.jpg);
     filter: drop-shadow(50px 10px 50px 80px rgba(8, 1, 1, 0.921));
     
   }
@@ -14,9 +14,9 @@ body {
     align-items: center;
   }
 
-  .logo {
+  /* .logo {
     width: 100px;
-  }
+  } */
 
   form.example input[type=text] {
     padding: 10px;
@@ -128,6 +128,7 @@ body {
     color: rgba(255,255,255,1);
     display: inline-flex;
     cursor: pointer;
+    margin-right: -20px;
   }
   .login:hover{
     .css-1hec36u:hover {
@@ -160,13 +161,15 @@ body {
 
     /* Second Nav Bar */
     .second-nav {
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 5px rgba(138, 17, 17, 0.1);
       padding:0;
       display: flex;
       align-items: center;
       position: relative;
       z-index: 1; 
       text-align: center;
+      width: 35%;
+      margin-left: 180px;
     }
 
     .second-dropdown {
