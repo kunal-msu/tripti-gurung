@@ -10,11 +10,20 @@
     margin-left: 30px;
     margin-top: 30px;
 }
-.h1{
-    margin-left: 50px;
+.heading{
+    margin-left: 350px;
     font-weight: bold;
     margin-bottom: 6px;
     font-size: 21px;
     line-height: 1.28571em;
     color: #d32323;
+}
+.subheading{
+    font-weight: bold;
+    margin-bottom: 13px;
+    display: block;
+    margin-left:280px;
+    padding: 0 18px;
+    max-width: 100%;
+    
 }
