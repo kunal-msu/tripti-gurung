@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> Yelp webpage Layout</title>
-        <link rel="stylesheet" href="formcss.css">
+        <link rel="stylesheet" href="login-formcss.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <link
@@ -22,8 +22,9 @@
         <br>
         <br>
         <hr style="color:rgba(235,235,235,1);">
-        <h1 class="heading">Sign Up For Yelp</h1>
-        <p class="subheading">Connect with great local business</p>
+        <h1 class="heading">Log in to Yelp</h1>
+        <a  href="form.html" style="color: #070706; font-weight: 400; font-size: 15px;" class="href"> New to Yelp? <span style="color: blue"> Sign Up</span> </a></small>
+
         <p class="legal-copy">
             By continuing, you agree to Yelp’s 
             <a class="legal-link" href="https://www.yelp.com/static?p=tos">Terms of Service and</a> 
@@ -76,47 +77,33 @@
           crossorigin="anonymous">
           
   </script>
-  <p style="color:#333;font-size: 12px;line-height: 1.5em; margin-left:280px;"> Don't worry, we never post without your permission</p>
   <!-- <fieldset class="hr-line">
     <legend align="center">OR</legend>
 </fieldset> -->
 <img src="D:\YELP\im.png" class="im">
+
 <section>
           <div class="card-body">
             <form>
-              <!-- 2 column grid layout with text inputs for the first and last names -->
-              <div class="row mb-4">
-                <div class="col">
-                  <div class="form-outline">
-                    <input type="text" id="form6Example1" class="form-control" placeholder="First name"/>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="form-outline">
-                    <input type="text" id="form6Example2" class="form-control" placeholder="Last name" />
-                  </div>
-                </div>
+              <!-- Text input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form6Example3" class="form-control" placeholder="Email" />
               </div>
   
               <!-- Text input -->
               <div class="form-outline mb-4">
-                <input type="text" id="form6Example3" class="form-control" placeholder="Password" />
+                <input type="text" id="form6Example4" class="form-control" placeholder="Password" />
               </div>
-  
-              <!-- Text input -->
-              <div class="form-outline mb-4">
-                <input type="text" id="form6Example4" class="form-control" placeholder="Zip code" />
-              </div>
-              <h5 style="font-weight: bold;">Birthday</h5>
-              <span class="help-inline">Optional</span>
-              
+              <div class="forgot-password">
+                <small><a class="forgot-link">Forgot password?</a></small>
+            </div>
               <div class="col">
                 <button id="signup-button" type="submit" value="Sign Up" class="button">
-                <span>Sign Up</span></button>
+                <span>Login</span></button>
               </div>
               <div class="sub-text-box">
-                <small class="subtle-text">Already on Yelp? 
-                <a class="login-link" href="login-form.html">Log in</a></small>
+                <small class="subtle-text">New to Yelp? 
+                <a class="login-link" href="form.html">Sign Up</a></small>
             </div>
   
               

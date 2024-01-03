@@ -132,3 +132,11 @@ footer{
     margin: 12px auto 0;
     text-align: right;
 }
+.href{
+    margin-left: 320px;
+}
+.forgot-password {
+    text-align: right;
+    margin-bottom: 12px;
+    margin-top: -15px;
+}
