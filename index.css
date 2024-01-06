@@ -272,17 +272,33 @@ input[type="text"] {
   color: rgba(45,46,47,1);
   text-align: center;
 }
-.logo {
-  position: absolute;
-  top: 10px; /* Adjust the distance from the top */
-  right: 10px; /* Adjust the distance from the right */
-  width: 50px; /* Adjust the width of the logo as needed */
-  height: 50px; /* Adjust the height of the logo as needed */
-  border-radius: 50%; /* Make the logo round */
-  object-fit: cover; /* Maintain aspect ratio and cover the round area */
-}
 
-.card-img-top.rounded-top {
-  border-top-left-radius: 20px; /* Adjust the border radius as needed */
-  border-top-right-radius: 20px; /* Adjust the border radius as needed */
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px
+}
+.img-recent{
+ height: 200px;
+width: 390px;
+}
+.webgrid{
+  margin-left: 50px;
+}
+.bulb,.funny{
+  height: 30px;
+  width: 30px;
+}
+.cool{
+  height: 25px;
+  width: 20px;
+
+}
+.emoji{
+  padding-right:50px;
 }
