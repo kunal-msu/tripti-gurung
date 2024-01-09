@@ -302,3 +302,7 @@ width: 390px;
 .emoji{
   padding-right:50px;
 }
+
+.fixed-top{
+  position: absolute;
+}
